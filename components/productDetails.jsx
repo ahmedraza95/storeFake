@@ -17,7 +17,7 @@ function Product() {
                 <label htmlFor="search">
                     <input onChange={(e) => {
                         setSearch(e.target.value)
-                    }} className="input" type="text" required="" placeholder="Search twitter" id="search" />
+                    }} className="input" type="text" required="" placeholder="Search Product" id="search" />
                     <div className="fancy-bg"></div>
                     <div className="search">
                         <svg viewBox="0 0 24 24" aria-hidden="true" className="r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-4wgw6l r-f727ji r-bnwqim r-1plcrui r-lrvibr">
