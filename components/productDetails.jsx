@@ -36,11 +36,11 @@ function Product() {
             <div className='look'>
                 {
                     filtered.map((pro) => (
-                        <Link to={`/product/${pro.id}`} key={pro.id} className='paraentDiv'>
+                        <Link  to={`/product/${pro.id}`} key={pro.id} className='paraentDiv'>
                             <div><img width={100} src={pro.image} alt="" /></div>
-                            <h1>{pro.title}</h1>
-                            <p>{pro.description}</p>
-                            <p>${pro.price}</p>
+                            <h1 className="textStyle">{pro.title}</h1>
+                            <p  className="textStyle">{pro.description}</p>
+                            <p  className="textStyle">${pro.price}</p>
                         </Link>
                     ))
                 }

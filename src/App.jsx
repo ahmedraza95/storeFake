@@ -25,9 +25,9 @@ function App() {
 
     <>
       <BrowserRouter>
-        <Headers />
+          <Headers />
         <Routes>
-          
+
           <Route path='/about' element={<NewOne />} />
           <Route path='/product/:id' element={<ProDet />} />
           <Route path='/home' element={<Product />} />

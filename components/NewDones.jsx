@@ -14,7 +14,7 @@ function ProDet() {
 
     return (
         <>
-                    <h1 className="text-4xl"> Product Detail</h1>
+            <h1> Product Detail</h1>
             {product ? (
                 <div className="productDetailsMain">
                     <div className="imgDiv"><img src={product.image} alt="" /></div>
